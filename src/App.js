@@ -60,7 +60,7 @@ function App() {
             <li className="skillsItemFles"><img src="images/skills/git.png" alt="Git" className="skillsImage" id="git"/></li>
             <li className="skillsItemFles"><img src="images/skills/latex.png" alt="LaTex" className="skillsImage" id="latex"/></li>
             <li className="skillsItemFles"><img src="images/skills/vhdl2.png" alt="VHDL" className="skillsImage" id="vhdl"/></li>
-            <li className="skillsItemFles"><img src="images/skills/picc2.PNG" alt="Pic C Compiler" className="skillsImage" id="picc"/></li>
+            <li className="skillsItemFles"><img src="images/skills/picc2.png" alt="Pic C Compiler" className="skillsImage" id="picc"/></li>
             <li className="skillsItemFles"><img src="images/skills/proteus2.png" alt="Proteus 8" className="skillsImage" id="proteus"/></li>
             <li className="skillsItemFles"><img src="images/skills/arduino.png" alt="Arduino" className="skillsImage" id="arduino"/></li>
             <li className="skillsItemFles"><img src="images/skills/keil2.png" alt="Keil U-vision" className="skillsImage" id="keil"/></li>
