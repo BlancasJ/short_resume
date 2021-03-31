@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
     <main id="gridContainer">
       <nav id="navGridItem">
         <ul id="navFlexContainer">
-          <li class="navItemFlex"><a href="">Menu</a></li>
-          <li class="navItemFlex"><a href="index.html" target="_self">About Me</a></li>
-          <li class="navItemFlex"><a href="professionalPath.html" target="_self">Professional Path</a></li>
-          <li class="navItemFlex"><a href="projects.html" target="_self">Projects</a></li>
+          <li className="navItemFlex"><a href="">Menu</a></li>
+          <li className="navItemFlex"><a href="index.html" target="_self">About Me</a></li>
+          <li className="navItemFlex"><a href="#" target="_self">Professional Path</a></li>
+          <li className="navItemFlex"><a href="#" target="_self">Projects</a></li>
         </ul>
       </nav>
       <section id="myselfTitle">
@@ -52,26 +52,26 @@ function App() {
       </section>
       <section id="skills">
         <ul id="skillsFlexContainer">
-            <li class="skillsItemFles"><img src="../images/skills/python2.png" alt="Python" class="skillsImage" id="python"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/c2.png" alt="C programming" class="skillsImage" id="cp"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/js2.png" alt="JavaScript" class="skillsImage" id="js"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/html2.png" alt="HTML" class="skillsImage" id="htmli"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/css2.png" alt="CSS" class="skillsImage" id="cssi"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/git.png" alt="Git" class="skillsImage" id="git"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/latex.png" alt="LaTex" class="skillsImage" id="latex"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/vhdl2.png" alt="VHDL" class="skillsImage" id="vhdl"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/picc2.PNG" alt="Pic C Compiler" class="skillsImage" id="picc"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/proteus2.png" alt="Proteus 8" class="skillsImage" id="proteus"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/arduino.png" alt="Arduino" class="skillsImage" id="arduino"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/keil2.png" alt="Keil U-vision" class="skillsImage" id="keil"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/psoc2.png" alt="PSoC" class="skillsImage" id="psoc"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/labview2.png" alt="LabView" class="skillsImage" id="labview"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/siemens_tia.png" alt="Siemens Tia Portal Software" class="skillsImage" id="tia"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/gx2.png" alt="Mitsubishi electric gx works 3 software" class="skillsImage" id="gx"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/raspbian2.png" alt="Raspbian" class="skillsImage" id="rasp"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/eagle2.png" alt="Eagle Autodesk PCB design" class="skillsImage" id="eagle"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/orcad.png" alt="OrCAD PCB design" class="skillsImage" id="orcad"/></li>
-            <li class="skillsItemFles"><img src="../images/skills/matlab2.png" alt="Matlab" class="skillsImage" id="matlab"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/python2.png" alt="Python" className="skillsImage" id="python"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/c2.png" alt="C programming" className="skillsImage" id="cp"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/js2.png" alt="JavaScript" className="skillsImage" id="js"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/html2.png" alt="HTML" className="skillsImage" id="htmli"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/css2.png" alt="CSS" className="skillsImage" id="cssi"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/git.png" alt="Git" className="skillsImage" id="git"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/latex.png" alt="LaTex" className="skillsImage" id="latex"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/vhdl2.png" alt="VHDL" className="skillsImage" id="vhdl"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/picc2.PNG" alt="Pic C Compiler" className="skillsImage" id="picc"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/proteus2.png" alt="Proteus 8" className="skillsImage" id="proteus"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/arduino.png" alt="Arduino" className="skillsImage" id="arduino"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/keil2.png" alt="Keil U-vision" className="skillsImage" id="keil"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/psoc2.png" alt="PSoC" className="skillsImage" id="psoc"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/labview2.png" alt="LabView" className="skillsImage" id="labview"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/siemens_tia.png" alt="Siemens Tia Portal Software" className="skillsImage" id="tia"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/gx2.png" alt="Mitsubishi electric gx works 3 software" className="skillsImage" id="gx"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/raspbian2.png" alt="Raspbian" className="skillsImage" id="rasp"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/eagle2.png" alt="Eagle Autodesk PCB design" className="skillsImage" id="eagle"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/orcad.png" alt="OrCAD PCB design" className="skillsImage" id="orcad"/></li>
+            <li className="skillsItemFles"><img src="../images/skills/matlab2.png" alt="Matlab" className="skillsImage" id="matlab"/></li>
         </ul>
       </section>
       <section id="hobbiesTitle">
@@ -81,17 +81,17 @@ function App() {
       </section>
       <section id="hobbies">
         <ul id="hobbiesFlexContainer">
-          <li class="hobbiesItemFlex">Cooking</li>
-          <li class="hobbiesItemFlex">Watch anime</li>
-          <li class="hobbiesItemFlex">Read</li>
-          <li class="hobbiesItemFlex">Challenge myself</li>
+          <li className="hobbiesItemFlex">Cooking</li>
+          <li className="hobbiesItemFlex">Watch anime</li>
+          <li className="hobbiesItemFlex">Read</li>
+          <li className="hobbiesItemFlex">Challenge myself</li>
         </ul>
       </section>
       <footer id="footerGridItem">
         <ul id="footerFlexContainer">
-          <li class="footerItemFlex"><a href="https://github.com/BlancasJ" target="_blank"><img src="../images/footer/github.png" alt="GitHub Account" class="footerImage"/></a></li>
-          <li class="footerItemFlex"><a href="mailto:Jorge.Blancas@theksquaregroup.com" target="_blank"><img src="../images/footer/mail.png" alt="mail" class="footerImage"/></a></li>
-          <li class="footerItemFlex"><a href="https://www.linkedin.com/in/jorge-blancas-cruz-4b6b311aa/" target="_blank"><img src="../images/footer/linkedin.png" alt="Linkedin Account" class="footerImage"/></a></li>
+          <li className="footerItemFlex"><a href="https://github.com/BlancasJ" target="_blank"><img src="../images/footer/github.png" alt="GitHub Account" className="footerImage"/></a></li>
+          <li className="footerItemFlex"><a href="mailto:Jorge.Blancas@theksquaregroup.com" target="_blank"><img src="../images/footer/mail.png" alt="mail" className="footerImage"/></a></li>
+          <li className="footerItemFlex"><a href="https://www.linkedin.com/in/jorge-blancas-cruz-4b6b311aa/" target="_blank"><img src="../images/footer/linkedin.png" alt="Linkedin Account" className="footerImage"/></a></li>
         </ul>
       </footer>
     </main>
